@@ -8,9 +8,35 @@ dotenv.config();
 
 async function startServer() {
   const app = express();
+
+// CORS headers for all routes
+app.use((req, res, next) => {
+  const allowedOrigin = "https://mdalif999.github.io";
+  const origin = req.headers.origin;
+  if (origin) {
+    res.setHeader("Access-Control-Allow-Origin", origin);
+  }
+  res.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
+  res.setHeader("Access-Control-Max-Age", "86400");
+
+  // Handle OPTIONS preflight
+  if (req.method === "OPTIONS") {
+    res.status(204).end();
+  } else {
+    next();
+  }
+});
+
   const PORT = 3000;
 
   app.use(express.json());
+
+  // Health check endpoint
+  app.get("/api/health", (req, res) => {
+    res.json({ status: "ok", timestamp: new Date().toISOString() });
+  });
+
 
   // Gemini API Proxy
   app.post("/api/chat", async (req, res) => {

@@ -33,15 +33,20 @@ export default function AIAssistant() {
         source: 'ai_assistant'
       });
 
-      const response = await fetch('/api/chat', {
+      const apiBase = import.meta.env.VITE_API_BASE_URL || 'https://lumina-creative-portfolio-805565918113.asia-southeast1.run.app';
+      const response = await fetch(`${apiBase}/api/chat`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: userMsg }),
       });
       const data = await response.json();
+      if (!response.ok) {
+        throw new Error(data.error || `Server responded with ${response.status}`);
+      }
       setMessages(prev => [...prev, { role: 'ai', text: data.text || "I'm sorry, I hit a snag. Try again?" }]);
     } catch (error) {
-      setMessages(prev => [...prev, { role: 'ai', text: "Failed to connect. Is the server running?" }]);
+      const errorMsg = error instanceof Error ? error.message : "Failed to connect";
+      setMessages(prev => [...prev, { role: 'ai', text: errorMsg.includes("Firestore") ? "Firestore error" : "Failed to get AI response. Check server status." }]);
     } finally {
       setIsTyping(false);
     }

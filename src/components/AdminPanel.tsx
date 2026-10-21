@@ -333,9 +333,9 @@ export default function AdminPanel({ onClose }: { onClose: () => void }) {
               <div>
                 <label className="block text-[8px] uppercase font-bold mb-2 opacity-50 flex justify-between">
                   Image URL
-                  <span className="text-accent normal-case italic">Use direct links (.jpg / .png) from Imgur or Postimages</span>
+                  <span className="text-accent normal-case italic">Local images stored in repo</span>
                 </label>
-                <input required value={editingProject.image} onChange={e => setEditingProject({...editingProject, image: e.target.value})} className="w-full p-3 border border-primary/10 font-mono text-xs focus:ring-1 focus:ring-accent outline-none" placeholder="https://i.imgur.com/example.png" />
+                <input required value={editingProject.image} onChange={e => setEditingProject({...editingProject, image: e.target.value})} className="w-full p-3 border border-primary/10 font-mono text-xs focus:ring-1 focus:ring-accent outline-none" placeholder="/projects/project1.jpg" />
               </div>
               <div className="grid grid-cols-2 gap-4">
                 <div>
