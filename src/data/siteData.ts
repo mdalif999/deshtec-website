@@ -134,7 +134,7 @@ export const teamMembers = [
     details:
       "Khondokar Sakib Ullah advises DeshTec with strong real-life business experience. He works mainly in the Thai aluminum industry and is a dealer for several brands in Bogura.",
     image:
-      "public/Screenshot 2026-11-12 at 2.00.22 AM.png",
+      "/sakib.png",
     short: "Thai aluminum dealer in Bogura, advising on real-world business.",
   },
 ];
