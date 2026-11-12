@@ -98,7 +98,7 @@ export const projects = [
     title: "Thai Aluminium Mobile POS",
     category: "Mobile POS",
     description: "Calculation, sales and quotations from a phone",
-    image: "/thaipos.png",
+    image: "/thaipos.jpeg",
     details:
            "The mobile version of the aluminium POS for Android. Shop owners can record sales, check stock and manage scrap profiles directly from their phone. It is currently in a trial phase with 50+ users, helping us improve the experience before the full release.",    tech: ["Flutter", "Supabase"],
     link: null,
@@ -137,13 +137,23 @@ export const teamMembers = [
       "/sakib.png",
     short: "Thai aluminum dealer in Bogura, advising on real-world business.",
   },
+  {
+    id: 3,
+    name: "Dr. Sahan Sadeeq Rafee",
+    post: "Advisor",
+    details:
+      "Dr. Sahan Sadeeq Rafee is a dental doctor and an entrepreneur who runs several businesses. He advises DeshTec mainly on marketing strategy and business growth, and occasionally supports the company with investment. He is passionate about apps and websites, and brings a practical view of how real customers think.",
+    image:
+      "/Rafee.jpeg",
+    short: "Dentist and entrepreneur, advising DeshTec on marketing and growth.",
+  },
 ];
 
 export const contacts = [
   { icon: "📧", label: "Email", text: "deshtec999@gmail.com", href: "mailto:deshtec999@gmail.com" },
   { icon: "📞", label: "Phone", text: "+8801305232039", href: "tel:+8801305232039" },
   { icon: "💬", label: "WhatsApp", text: "Chat on WhatsApp", href: "https://wa.me/8801710460274", external: true },
-  { icon: "🌐", label: "Website", text: "deshtec.com", href: "https://deshtec.com", external: true },
+
   { icon: "💻", label: "GitHub", text: "mdalif999", href: "https://github.com/mdalif999", external: true },
   { icon: "📍", label: "Location", text: "Bangladesh" },
 ];
@@ -151,5 +161,5 @@ export const contacts = [
 export const facts = [
   { label: "Founded", value: "2024" },
   { label: "Based in", value: "Bangladesh" },
-  { label: "Team", value: "Founder + Advisor" },
+  { label: "Team", value: "Founder + 2 Advisors" },
 ];
