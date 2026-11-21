@@ -149,9 +149,9 @@ export const teamMembers = [
   },
   {
     id: 4,
-    name: "KBD. S.N Nihal Sabbir",
+    name: "KBD. S.N Nather Nihal",
     post: "Advisor & Investor",
-    details: "KBD. S.N Nihal Sabbir is an agriculturist and entrepreneur. As the Founder and Advisor of DeshTec, he guides the company on strategic planning, business development, and agricultural innovation. He is passionate about leveraging technology to solve real-world problems and brings practical, grassroots insights into market needs.",
+    details: "KBD. S.N Nather Nihal is an agriculturist and entrepreneur. As the Founder and Advisor of DeshTec, he guides the company on strategic planning, business development, and agricultural innovation. He is passionate about leveraging technology to solve real-world problems and brings practical, grassroots insights into market needs.",
     image: "/nihal.jpg",
     short: "Agriculturist, Founder & Advisor, guiding DeshTec on strategy and growth.",
   },
