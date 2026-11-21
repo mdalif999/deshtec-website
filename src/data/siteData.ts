@@ -69,7 +69,7 @@ export const projects = [
     description: "Aluminium window and door cost calculator",
     image: "/thaical.png",
     details:
-            "An Android subscription-based app that calculates aluminium window and door costs from a price-list database in seconds, covering Swing, Fixed, Curtain, Euro and more. It reached 1,300+ registered users and 400+ weekly active users in about 3 months with no paid advertising, and holds a 4.8★ rating on Google Play. It offers three plans, Free, Regular and Premium, along with user management and an in-app analytics dashboard.",    tech: ["Flutter", "Dart", "Supabase"],
+      "An Android subscription-based app that calculates aluminium window and door costs from a price-list database in seconds, covering Swing, Fixed, Curtain, Euro and more. It reached 1,300+ registered users and 400+ weekly active users in about 3 months with no paid advertising, and holds a 4.8★ rating on Google Play. It offers three plans, Free, Regular and Premium, along with user management and an in-app analytics dashboard.", tech: ["Flutter", "Dart", "Supabase"],
     link: "https://play.google.com/store/apps/details?id=com.mdalif999.thaical.thaical",
   },
   {
@@ -79,7 +79,7 @@ export const projects = [
     description: "POS and quotation system for a fabrication business",
     image: "/bkt.png",
     details:
-            "A complete Windows system for a Thai aluminium business, covering sales and stock in one place. It tracks inventory of aluminium profiles, glass and hardware, records every sale, and manages scrap profiles so leftover pieces are not wasted. This project has been delivered to our client, so no public demo is available yet. A public version is planned.",    tech: ["Python", "Flet", "Supabase"],
+      "A complete Windows system for a Thai aluminium business, covering sales and stock in one place. It tracks inventory of aluminium profiles, glass and hardware, records every sale, and manages scrap profiles so leftover pieces are not wasted. This project has been delivered to our client, so no public demo is available yet. A public version is planned.", tech: ["Python", "Flet", "Supabase"],
     link: null,
   },
   {
@@ -100,7 +100,7 @@ export const projects = [
     description: "Calculation, sales and quotations from a phone",
     image: "/thaipos.jpeg",
     details:
-           "The mobile version of the aluminium POS for Android. Shop owners can record sales, check stock and manage scrap profiles directly from their phone. It is currently in a trial phase with 50+ users, helping us improve the experience before the full release.",    tech: ["Flutter", "Supabase"],
+      "The mobile version of the aluminium POS for Android. Shop owners can record sales, check stock and manage scrap profiles directly from their phone. It is currently in a trial phase with 50+ users, helping us improve the experience before the full release.", tech: ["Flutter", "Supabase"],
     link: null,
   },
   {
@@ -148,21 +148,21 @@ export const teamMembers = [
     short: "Dentist and entrepreneur, advising DeshTec on marketing and growth.",
   },
   {
-  id: 4,
-  name: "KBD Nihal Sabbir SN",
-  post: "Advisor & Investor",
-  details: "KBD Nihal Sabbir SN is an agriculturist and entrepreneur. As the Founder and Advisor of DeshTec, he guides the company on strategic planning, business development, and agricultural innovation. He is passionate about leveraging technology to solve real-world problems and brings practical, grassroots insights into market needs.",
-  image: "/nihal.jpg", 
-  short: "Agriculturist, Founder & Advisor, guiding DeshTec on strategy and growth.",
-},
-{
-  id: 5, 
-  name: "Md. Khorshed Alam Sagor",
-  post: "Software & Data Engineer", 
-  details: "Md. Khorshed Alam Sagor is a Software & Data Engineer specializing in software development and research. Passionate about data analytics and modern web and mobile technologies, he focuses on building digital solutions, developing web applications, managing and analyzing data, and exploring innovative technologies to solve real-world problems.",
-  image: "/sagor.jpg", 
-  short: "Software & Data Engineer, focused on web apps, data analytics, and innovative digital solutions.",
-},
+    id: 4,
+    name: "KBD. S.N Nihal Sabbir",
+    post: "Advisor & Investor",
+    details: "KBD. S.N Nihal Sabbir is an agriculturist and entrepreneur. As the Founder and Advisor of DeshTec, he guides the company on strategic planning, business development, and agricultural innovation. He is passionate about leveraging technology to solve real-world problems and brings practical, grassroots insights into market needs.",
+    image: "/nihal.jpg",
+    short: "Agriculturist, Founder & Advisor, guiding DeshTec on strategy and growth.",
+  },
+  {
+    id: 5,
+    name: "Md. Khorshed Alam Sagor",
+    post: "Software & Data Engineer",
+    details: "Md. Khorshed Alam Sagor is a Software & Data Engineer specializing in software development and research. Passionate about data analytics and modern web and mobile technologies, he focuses on building digital solutions, developing web applications, managing and analyzing data, and exploring innovative technologies to solve real-world problems.",
+    image: "/sagor.jpg",
+    short: "Software & Data Engineer, focused on web apps, data analytics, and innovative digital solutions.",
+  },
 
 
 ];
