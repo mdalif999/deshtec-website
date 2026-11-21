@@ -147,6 +147,24 @@ export const teamMembers = [
       "/Rafee.jpeg",
     short: "Dentist and entrepreneur, advising DeshTec on marketing and growth.",
   },
+  {
+  id: 4,
+  name: "KBD Nihal Sabbir SN",
+  post: "Advisor & Investor",
+  details: "KBD Nihal Sabbir SN is an agriculturist and entrepreneur. As the Founder and Advisor of DeshTec, he guides the company on strategic planning, business development, and agricultural innovation. He is passionate about leveraging technology to solve real-world problems and brings practical, grassroots insights into market needs.",
+  image: "/nihal.jpg", 
+  short: "Agriculturist, Founder & Advisor, guiding DeshTec on strategy and growth.",
+},
+{
+  id: 5, 
+  name: "Md. Khorshed Alam Sagor",
+  post: "Software & Data Engineer", 
+  details: "Md. Khorshed Alam Sagor is a Software & Data Engineer specializing in software development and research. Passionate about data analytics and modern web and mobile technologies, he focuses on building digital solutions, developing web applications, managing and analyzing data, and exploring innovative technologies to solve real-world problems.",
+  image: "/sagor.jpg", 
+  short: "Software & Data Engineer, focused on web apps, data analytics, and innovative digital solutions.",
+},
+
+
 ];
 
 export const contacts = [
